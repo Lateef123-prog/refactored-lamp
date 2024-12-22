@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Error handling in JS</title>
+    </head>
+    <body>
+        <p id="Error"></p>
+        <script>
+            try{
+                hitalert("Welcome guest!");
+            }
+            catch(err){
+                document.getElementById("Error").innerHTML=err.message
+            }
+        </script>
+    </body>
+</html>
